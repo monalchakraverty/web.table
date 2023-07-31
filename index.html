@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left">Welcome to our Delicious Recipe Website! | Explore Tasty Dishes Now!</marquee>
+    </div>
+
+    <table class="photo-table">
+        <tr>
+            <td>
+            <img src="assets/img.jpg">
+            </td>
+            <td>
+                <img src="assets/img9.jpg" alt="Photo 2">
+            </td>
+            <td>
+                <img src="assets/img2.jpg" alt="Photo 3">
+            </td>
+        </tr>
+
+    <section id="home">
+        <h2>Home</h2>
+        <table>
+            <h3>  <b> Famous Recipes </b>   </h3>
+            <tr>
+                <td>
+                    <img src="assets/img10.jpeg" alt="Recipe 1">
+                </td>
+                <td>
+                    <h3>Chicken Curry</h3>
+                    <p>Description: Chicken curry is a delectable
+                         and aromatic dish cherished worldwide for its rich flavors and tender,<br> succulent chicken. This popular culinary delight is a harmonious blend of tender chicken pieces cooked in a<br>
+                         luscious gravy of onions, garlic, ginger, and a medley of aromatic spices like turmeric, coriander, cumin, and<br> chili powder. The dish is elevated
+                         with a creamy touch of coconut milk, adding a velvety texture and subtle<br> sweetness to balance the spiciness.</p>
+                    <p>Reviews: <span class="star" onclick="setRating(1)">&#9733;</span>
+                        <span class="star" onclick="setRating(2)">&#9733;</span>
+                        <span class="star" onclick="setRating(3)">&#9733;</span>
+                        <span class="star" onclick="setRating(4)">&#9733;</span>
+                        <span class="star" onclick="setRating(5)">&#9733;</span></p>
+                 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="assets/img1.jpeg" alt="Recipe 2">
+                </td>
+                <td>
+                    <h3>Pesto Pasta</h3>
+                    <p>Description: Pesto pasta is a mouthwatering and vibrant Italian dish that has gained popularity worldwide<br>
+                         for its simplicity and exquisite flavors. It typically consists of al dente cooked pasta, usually a short variety<br>
+                          like penne, fusilli, or farfalle coated with a luscious green sauce called "pesto"
+                        The star ingredient of pesto<br> sauce is fresh basil leaves, which give it a distinctive herbal aroma and bright green color. </p>
+                    <p>Reviews: <span class="star" onclick="setRating(1)">&#9733;</span>
+                        <span class="star" onclick="setRating(2)">&#9733;</span>
+                        <span class="star" onclick="setRating(3)">&#9733;</span>
+                        <span class="star" onclick="setRating(4)">&#9733;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="assets/img6.jpeg" alt="Recipe 3">
+                </td>
+                <td>
+                    <h3>Ghewar</h3>
+                    <p>Description: Ghewar is a delectable and traditional Indian dessert. This delightful dessert is made from a<br> batter of all-purpose flour (maida) or semolina (sooji) mixed with ghee (clarified butter) and water.
+                     The batter<br> is poured into a wide, deep, and round vessel with a hole in the center to create a hollow disc-like shape.<br> This vessel is then deep-fried in ghee until the ghewar turns crisp and golden-brown, achieving a delicate<br> lattice-like texture with porous holes.</p>
+                    <p>Reviews: 
+                        <span class="star" onclick="setRating(1)">&#9733;</span>
+                        <span class="star" onclick="setRating(2)">&#9733;</span>
+                        <span class="star" onclick="setRating(3)">&#9733;</span>
+                        <span class="star" onclick="setRating(4)">&#9733;</span>
+                        <span class="star" onclick="setRating(5)">&#9733;</span></p>
+                </td>
+            </tr>
+            
+        </table>
+    </section>
+
+    <h1>Gallery</h1>
+    <table class="photo-table">
+        <tr>
+            <td>
+            <img src="assets/img12.jpg" alt="Photo 1">
+            </td>
+            <td>
+                <img src="assets/img11.jpg" alt="Photo 2">
+            </td>
+            <td>
+                <img src="assets/img8.jpg" alt="Photo 3">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="assets/img7.jpg" alt="Photo 4">
+            </td>
+            <td>
+                <img src="assets/img8.jpg" alt="Photo 5">
+            </td>
+            <td>
+                <img src="assets/img4.jpg" alt="Photo 6">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="assets/img5.jpg" alt="Photo 7">
+            </td>
+            <td>
+                <img src="assets/img3.jpg" alt="Photo 8">
+            </td>
+            <td>
+                <img src="assets/img14.jpg" alt="Photo 9">
+            </td>
+        </tr>
+    </table>
+
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our recipe website, your ultimate destination for delicious and diverse culinary inspirations! Our platform is designed to cater to food enthusiasts of all levels, from seasoned chefs to beginners in the kitchen. Whether you're searching for traditional family favorites
+       or adventurous global dishes, we have a vast collection of mouthwatering recipes to suit every palate.</p>
+        
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+
+        <table>
+          <tr>
+            <th>Email</th>
+            <td>contact@example.com</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>+91 45687 98431</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td> XYZ Street, City Heights, India</td>
+          </tr>
+        </table>
+      
+        <h2>Send us a message</h2>
+      
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <section id="Blog">
+        <h3> Blog </h3>
+        <p> In the rapidly evolving digital landscape, recipe websites have emerged as dynamic platforms that revolutionize how we discover, create, and share culinary delights. These online havens have reshaped our approach to cooking, providing a vast array of recipes, inspiring culinary creativity, and fostering a vibrant community of food enthusiasts. This essay explores the significance of recipe websites in our culinary journey, their impact 
+            on modern food culture, and the delightful experiences they offer to both seasoned cooks and aspiring chefs. Recipe websites have become virtual treasure troves of gastronomic treasures, encompassing an extensive collection of dishes from diverse culinary traditions around the globe. From time-honored family recipes passed down through generations to innovative fusion creations, these platforms cater to a myriad of tastes and preferences. Whether one seeks comforting classics or desires to explore 
+            exotic flavors, recipe websites offer a vast menu of culinary delights that stir excitement and curiosity. One of the most compelling aspects of recipe websites is their ease of accessibility. With just a few clicks, users can immerse themselves in a world of recipes, negating the need for cumbersome cookbooks. These platforms boast user-friendly interfaces, empowering users to effortlessly search for specific recipes based on ingredients, cooking times, or dietary restrictions. The inclusion of detailed step-by-step instructions, often 
+            accompanied by captivating visuals, makes cooking more approachable, inspiring confidence even in novices. </p>
+    </section>
+
+    <footer>
+        &copy; Monal Chakraverty
+    </footer>
+</body>
+</html>

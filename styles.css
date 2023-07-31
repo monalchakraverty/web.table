@@ -1,0 +1,149 @@
+body {
+  background-color: darkolivegreen;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: darkolivegreen;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.marquee {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 50%;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+img {
+height: 200px;
+width: 100%;
+object-fit: fill;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+#home h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+th {
+  background-color: darkolivegreen;
+  text-align: left;
+  margin: 10px;
+}
+
+.photo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.photo-table td {
+  padding: 5px;
+}
+
+.photo-table img {
+  object-fit: cover;
+  height: 500px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.photo-table img:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+  padding: 5px;
+  color: #4CAF50;
+}
+
+input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: darkolivegreen;
+  color: white;
+  padding: 10px;
+}
